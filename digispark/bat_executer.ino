@@ -23,9 +23,7 @@ void loop() {
   // Wait for the BAT file to execute (you might need to adjust this delay based on the BAT file's execution time)
   DigiKeyboard.delay(10000);
   
-  // Close the command prompt window
+  // if you wanna Close the command prompt window, uncommand the below line
   //DigiKeyboard.sendKeyStroke(KEY_F4, MOD_ALT_LEFT);
-  
-  // Do nothing after the BAT file has been executed
   while (1) {}
 }
