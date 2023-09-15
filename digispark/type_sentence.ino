@@ -23,10 +23,7 @@ void loop() {
   // Wait for Notepad to open (adjust the delay based on your system's performance)
   DigiKeyboard.delay(2000);
   
-  // Type the message 5 times
- // for (int i = 0; i < 5; i++) {
-  //  typeMessage();
- // }
+  typeMessage()
   
   // Exit loop (you can add more actions here if needed)
   while (1) {}
