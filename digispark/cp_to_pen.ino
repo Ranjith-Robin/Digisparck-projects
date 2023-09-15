@@ -11,13 +11,13 @@ void setup() {
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(1000);
   // Change the directory to the pen drive (replace 'X:' with the actual drive letter of your pen drive)
-//  DigiKeyboard.print("E:");
-//  DigiKeyboard.sendKeyStroke(KEY_ENTER);
-//  DigiKeyboard.delay(1000);
-//  // Create a new folder on the pen drive (if it doesn't exist)
-//  DigiKeyboard.print("mkdir MyCopiedFolder");
-//  DigiKeyboard.sendKeyStroke(KEY_ENTER);
-//  DigiKeyboard.delay(1000);
+  DigiKeyboard.print("E:");
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  // Create a new folder on the pen drive (if it doesn't exist)
+  DigiKeyboard.print("mkdir MyCopiedFolder");
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
   // Change the directory to the Documents folder
   DigiKeyboard.print("cd %userprofile%\\Documents");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
